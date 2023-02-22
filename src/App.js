@@ -87,7 +87,6 @@ function App() {
   };
 
   return (
-
     <div className="container">
       <Header
         onAdd={() => setShowAddTask(!showAddTask)}
@@ -98,7 +97,6 @@ function App() {
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
         "No Tasks To Show"
-
       )}
     </div>
   );
